@@ -1,0 +1,34 @@
+{
+  "id": "b27698e0-0f6c-358e-7087-cd76dce8c3d8",
+  "name": "MZTranslator",
+  "values": [
+    {
+      "enabled": true,
+      "key": "passkey",
+      "value": "test6362561605505490010",
+      "type": "text"
+    },
+    {
+      "enabled": true,
+      "key": "filename",
+      "value": "CDPlayer_assm_LW.3d",
+      "type": "text"
+    },
+    {
+      "enabled": true,
+      "key": "code",
+      "value": "<your_function_code_key>",
+      "type": "text"
+    },
+    {
+      "enabled": true,
+      "key": "hostname",
+      "value": "translator",
+      "type": "text"
+    }
+  ],
+  "timestamp": 1491494189103,
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2017-04-06T16:15:25.244Z",
+  "_postman_exported_using": "Postman/4.10.5"
+}

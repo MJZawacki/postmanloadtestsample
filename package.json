@@ -1,0 +1,20 @@
+{
+  "name": "jtloadtester",
+  "version": "1.0.0",
+  "description": "Runs PostMan collections in parallel to simulate a load on the web service",
+  "main": "loadtest.js",
+  "dependencies": {
+    "async": "^2.3.0",
+    "newman": "^3.5.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "async": "^2.3.0",
+    "newman": "^3.5.2"
+  },
+  "scripts": {
+    "loadtest": "node loadtest.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

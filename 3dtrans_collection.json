@@ -1,0 +1,133 @@
+{
+	"id": "0a07c892-a2e7-1023-5984-36b7515d21de",
+	"name": "3DTranslate",
+	"allTests": [],
+	"timestamp": 1491495546986,
+	"collection_id": "c6ba9248-143b-eb50-887b-cacbd992058b",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "b27698e0-0f6c-358e-7087-cd76dce8c3d8",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "c6ba9248-143b-eb50-887b-cacbd992058b",
+		"name": "3DTranslate",
+		"description": "",
+		"order": [
+			"45c12cb6-a231-b164-6afb-ade3feead911"
+		],
+		"folders": [],
+		"requests": [
+			{
+				"id": "45c12cb6-a231-b164-6afb-ade3feead911",
+				"headers": "",
+				"url": "https://{{hostname}}.azurewebsites.net/api/{{passkey}}/{{filename}}/?code={{code}}",
+				"pathVariables": {},
+				"preRequestScript": null,
+				"method": "POST",
+				"collectionId": "c6ba9248-143b-eb50-887b-cacbd992058b",
+				"data": null,
+				"dataMode": "params",
+				"name": "https://{{hostname}}.azurewebsites.net/api/{{passkey}}/{{filename}}/?code={{code}}",
+				"description": "",
+				"descriptionFormat": "html",
+				"time": 1491495510269,
+				"version": 2,
+				"responses": [],
+				"tests": "tests[\"Body contains Success!\"] = responseBody.has(\"Success!\")",
+				"currentHelper": "normal",
+				"helperAttributes": {}
+			}
+		],
+		"timestamp": 1491495510270,
+		"synced": false,
+		"syncedFilename": "",
+		"remote_id": 0,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"owner": "",
+		"subscribed": false,
+		"createdAt": 1491495514840,
+		"updatedAt": null,
+		"write": true,
+		"isDeleted": false,
+		"published": false,
+		"favorite": false,
+		"permissions": {},
+		"syncedPermissions": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"id": "45c12cb6-a231-b164-6afb-ade3feead911",
+			"name": "https://{{hostname}}.azurewebsites.net/api/{{passkey}}/{{filename}}/?code={{code}}",
+			"url": "https://{{hostname}}.azurewebsites.net/api/{{passkey}}/{{filename}}/?code={{code}}",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {
+				"Body contains Success!": true
+			},
+			"testPassFailCounts": {
+				"Body contains Success!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13378
+			],
+			"allTests": [
+				{
+					"Body contains Success!": true
+				}
+			],
+			"time": 13378,
+			"totalRequestTime": 13378,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 1,
+	"totalFail": 0,
+	"totalTime": 13378,
+	"lifecycle": "done",
+	"willStop": false,
+	"requests": [
+		{
+			"name": "https://{{hostname}}.azurewebsites.net/api/{{passkey}}/{{filename}}/?code={{code}}",
+			"id": "45c12cb6-a231-b164-6afb-ade3feead911",
+			"url": "https://{{hostname}}.azurewebsites.net/api/{{passkey}}/{{filename}}/?code={{code}}",
+			"time": 13378,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {
+				"Body contains Success!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Body contains Success!"
+			],
+			"gridData": [
+				[
+					true
+				]
+			],
+			"tests": {
+				"Body contains Success!": true
+			}
+		}
+	],
+	"synced": false
+}
